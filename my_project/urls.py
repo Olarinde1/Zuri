@@ -19,5 +19,5 @@ from django.urls import path,include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("zuri/", include("zuri.urls"), name='index')
+    path("", include("zuri.urls"), name='home_view')
 ]
